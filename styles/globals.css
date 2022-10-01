@@ -11,20 +11,17 @@
   h3 {
     @apply font-bold;
   }
-h1{
-  @apply text-4xl md:text-6xl sm:text-5xl
-}
+  h1 {
+    @apply text-4xl md:text-6xl sm:text-5xl;
+  }
 
-h2 {
-  @apply text-3xl sm:text-4xl
-}
-ul{
-  @apply cursor-pointer capitalize
-}
-button{
-   @apply shadow-xl shadow-gray-400 rounded-xl text-white uppercase 
-    
+  h2 {
+    @apply text-3xl sm:text-4xl;
+  }
+  ul {
+    @apply cursor-pointer capitalize;
+  }
+  button {
+    @apply shadow-xl shadow-gray-400 rounded-xl text-white uppercase;
   }
 }
-
-
