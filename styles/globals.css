@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply bg-[#fafafa] text-[#eee] tracking-wide;
+    @apply bg-[#fafafa] text-[#613e3e] tracking-wide;
   }
   h1,
   h2,
@@ -18,7 +18,7 @@
   h2 {
     @apply text-3xl sm:text-4xl;
   }
-  ul {
+  li {
     @apply cursor-pointer capitalize;
   }
   button {
