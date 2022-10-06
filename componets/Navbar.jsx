@@ -11,7 +11,7 @@ const Navbar = () => {
       <div>
         <ul>
           <Link href="/about">
-            <li className="ml-10 text-sm hover:border-b">About</li>
+            <li >About</li>
           </Link>
           <Link href="/skills">
             <li className="ml-10 text-sm hover:border-b">skills</li>
@@ -21,7 +21,9 @@ const Navbar = () => {
           </Link>
         </ul>
       </div>
+    
     </div>
+
   );
 };
 
