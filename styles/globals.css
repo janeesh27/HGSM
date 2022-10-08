@@ -18,8 +18,9 @@
   h2 {
     @apply text-3xl sm:text-4xl;
   }
+ 
   li {
-    @apply cursor-pointer capitalize;
+    @apply cursor-pointer capitalize inline-flex;
   }
   button {
     @apply shadow-xl shadow-gray-400 rounded-xl text-white uppercase;

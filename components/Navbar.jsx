@@ -6,11 +6,11 @@ const Navbar = () => {
   return (
     <div className="fixed bg-white w-full h-20 shadow-xl z-[100]">
       <div className="flex justify-between items-center h-full w-full px-2 2xl:px-16">
-       <span> <Image src='/../public/media/Logo2.png' alt="/" width='100' height='70' />
-        </span>
-        <h2>MANDOLIA INSTITUTE</h2>
-        <div>
-        <ul className="">
+      <Image src='/../public/media/Logo2.png' alt="/" width='100' height='70' />
+        
+       
+        <div> 
+        <ul>
             <Link href="/aboutus">
               <li className="ml-10 text-2xl hover:border-b">About us</li>
             </Link>
