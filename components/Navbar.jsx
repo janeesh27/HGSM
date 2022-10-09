@@ -12,7 +12,7 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
 
   const handleNav = () => {
-    setNav(true);
+    setNav(!nav);
   };
 
   return (
@@ -42,13 +42,13 @@ const Navbar = () => {
           </div>
           <div
             className={
-              nav ? "fixed left-0 top-0 w-full h-screen bg-black/30" : ""
+              nav ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/50" : ""
             }
           >
             <div
               className={
                 nav
-                  ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-white p-10 ease-in duration-500"
+                  ? "md:hidden fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-white p-10 ease-in duration-500"
                   : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
               }
             >
