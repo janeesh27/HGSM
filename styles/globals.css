@@ -20,7 +20,7 @@
   }
  
   li {
-    @apply cursor-pointer capitalize inline-flex;
+    @apply cursor-pointer capitalize ;
   }
   button {
     @apply shadow-xl shadow-gray-400 rounded-xl text-white uppercase;
