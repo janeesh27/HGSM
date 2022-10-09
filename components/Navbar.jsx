@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import {
@@ -9,6 +9,12 @@ import {
 } from "react-icons/ai";
 
 const Navbar = () => {
+  const [nav, setNav] = useState(false);
+
+  const handleNav = () => {
+    setNav(true);
+  };
+
   return (
     <div className="fixed bg-white w-full h-20 shadow-xl z-[100]">
       <div className="flex justify-between items-center h-full w-full px-2 2xl:px-16">
@@ -31,11 +37,21 @@ const Navbar = () => {
               <li className="ml-10 text-2xl hover:border-b">contact us</li>
             </Link>
           </ul>
-          <div className="md:hidden">
+          <div onClick={handleNav} className="md:hidden">
             <AiOutlineMenu size={35} />
           </div>
-          <div className="fixed left-0 top-0 w-full h-screen bg-black/30">
-            <div className="fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-white p-10 ease-in duration-500">
+          <div
+            className={
+              nav ? "fixed left-0 top-0 w-full h-screen bg-black/30" : ""
+            }
+          >
+            <div
+              className={
+                nav
+                  ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-white p-10 ease-in duration-500"
+                  : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
+              }
+            >
               <div>
                 <div className="flex w-full items-center justify-between">
                   <Image
@@ -44,7 +60,10 @@ const Navbar = () => {
                     width="100"
                     height="70"
                   />
-                  <div className="rounded-full shadow-lg shadow-gray-500 p-3 cursor-pointer">
+                  <div
+                    onClick={handleNav}
+                    className="rounded-full shadow-lg shadow-gray-500 p-3 cursor-pointer"
+                  >
                     <AiOutlineClose />
                   </div>
                 </div>
@@ -69,10 +88,10 @@ const Navbar = () => {
                 </div>
                 <div className="flex space-x-5">
                   <Link href="https://www.instagram.com/mandoliacoachingcentre/">
-                    <AiFillInstagram size={40} color='magenta' />
+                    <AiFillInstagram size={40} color="magenta" />
                   </Link>
                   <Link href="https://www.facebook.com/rajourimandoliaF">
-                    <AiFillFacebook size={40} color='blue' />
+                    <AiFillFacebook size={40} color="blue" />
                   </Link>
                 </div>
               </div>
