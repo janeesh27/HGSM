@@ -4,7 +4,7 @@ import Image from "next/image";
 const Main = () => {
   return (
     <div className='w-full h-screen text-center'>
-      <div className="max-w-[1240px] w-full h-full p-2 mx-5 flex items-center">
+      <div className="max-w-[1240px] w-full h-full p-2 mx-auto flex items-center">
             <div className="">
             
 <Image className="opacity-50"
