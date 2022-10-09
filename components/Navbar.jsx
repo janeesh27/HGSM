@@ -21,8 +21,9 @@ const Navbar = () => {
             <Link href="/contactus">
               <li className="ml-10 text-2xl hover:border-b">contact us</li>
             </Link>
-           <div><AiOutlineMenu size={25} /></div>
-          </ul>
+            </ul>
+           <div className="md:hidden"><AiOutlineMenu size={35} /></div>
+         
         </div>
       </div>
 
