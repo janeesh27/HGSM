@@ -21,8 +21,8 @@ const About = () => {
             amet..", comes from a line in section 1.10.32.
           </p>
         </div>
-        <div>
-          <Image src="/../public/media/bg.jpg" alt="/" height="400" width="600" />
+        <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4">
+          <Image src="/../public/media/bg.jpg" alt="/" height="500" width="800" />
         </div>
       </div>
     </div>

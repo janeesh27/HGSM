@@ -10,7 +10,7 @@ const Main = () => {
         Serving excellence since 2002...
          </p>
          <h1 className="uppercase">hgs <span className='text-[#a1982e]'>mandolia</span></h1>
-         <h3>Rajouri's No.1 Honest Institute</h3>
+         <h3 className="text-2xl p-4">Rajouri's No.1 Honest Institute</h3>
          <div>
           <button className="mt-9 p-3 text-[black] font-semibold bg-gradient-to-r from-yellow-600 to-yellow-300">book a demo session</button>
          </div>
