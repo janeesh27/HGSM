@@ -23,6 +23,6 @@
     @apply cursor-pointer capitalize ;
   }
   button {
-    @apply shadow-xl shadow-gray-400 rounded-xl uppercase;
+    @apply shadow-xl shadow-gray-400 rounded-xl uppercase ease-in duration-300;
   }
 }
