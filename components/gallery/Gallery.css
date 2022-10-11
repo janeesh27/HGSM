@@ -1,0 +1,14 @@
+h1{
+    display: grid;
+    text-transform: uppercase;
+    text-align: center;
+    height: 150px;
+    margin-top: 40px;
+ 
+   
+}
+.slider{
+width: 70%;
+height:400px;
+position: absolute;
+}

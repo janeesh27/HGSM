@@ -3,7 +3,7 @@ import Main from '../components/Main'
 import Navbar from '../components/Navbar'
 import About from '../components/About'
 import Services from '../components/Services'
-import styles from '../styles/Home.module.css'
+
 import Gallery from '../components/gallery/Gallery'
 export default function Home() {
   return (
