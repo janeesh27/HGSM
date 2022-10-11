@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar'
 import About from '../components/About'
 import Services from '../components/Services'
 import styles from '../styles/Home.module.css'
+import Gallery from '../components/gallery/Gallery'
 export default function Home() {
   return (
     <div>
@@ -15,7 +16,8 @@ export default function Home() {
       <Navbar />
       <Main />  
       <About />   
-      <Services />         
+      <Services /> 
+      <Gallery />        
    
       </div>  
   )
