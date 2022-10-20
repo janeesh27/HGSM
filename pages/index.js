@@ -1,10 +1,12 @@
-import Head from 'next/head'
-import Main from '../components/Main'
-import Navbar from '../components/Navbar'
-import About from '../components/About'
-import Services from '../components/Services'
+import Head from "next/head";
+import Main from "../components/Main";
+import Navbar from "../components/Navbar";
+import About from "../components/About";
+import Services from "../components/Services";
 
-import Gallery from '../components/gallery/Gallery'
+
+import Gallery from "../components/gallery/Gallery";
+import Form from "../components/Form";
 export default function Home() {
   return (
     <div>
@@ -14,11 +16,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <Main />  
-      <About />   
-      <Services /> 
-      <Gallery />        
-   
-      </div>  
-  )
+      <Main />
+      <About />
+      <Services />
+      <Gallery />
+      <Form />
+    </div>
+  );
 }
