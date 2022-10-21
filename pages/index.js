@@ -5,8 +5,10 @@ import About from "../components/About";
 import Services from "../components/Services";
 
 
+
 import Gallery from "../components/gallery/Gallery";
 import Form from "../components/Form";
+import Footer from "../components/Footer";
 export default function Home() {
   return (
     <div>
@@ -21,6 +23,7 @@ export default function Home() {
       <Services />
       <Gallery />
       <Form />
+      <Footer />
     </div>
   );
 }
