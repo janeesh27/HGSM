@@ -23,7 +23,7 @@ export default function Home() {
       <Services />
       <Gallery />
       <Form />
-      <Footer />
+      
     </div>
   );
 }
