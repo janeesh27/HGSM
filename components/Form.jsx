@@ -8,17 +8,17 @@ const form = () => {
   return (
     <div id="form" className="w-full lg:h-screen">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full ">
-        <h2 className="py-4">Get In Touch</h2>
+        <h2 className="py-6">Get In Touch</h2>
         <div className="grid lg:grid-cols-5 gap-8">
           {/* left */}
-          <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
+          <div className="col-span-3 lg:col-span-2 w-full h-full shadow-lg bg-gradient-to-r from-yellow-600 to-yellow-300 shadow-black rounded-xl p-4">
             <div className="lg:p-4 h-full ">
               <div>
-                <h1>c</h1>
+                <h2>MANDOLIA COACHING</h2>
               </div>
               <div>
-                <h2 className="py-2">Clint Briley</h2>
-                <p>Front-End Developer</p>
+                
+                <p className="text-lg py-2 font-semibold">Ward no. 9, near Jamia Masjid, Rajouri, Jammu and Kashmir 185131</p>
                 <p className="py-4">
                   I am available for freelance or full-time positions. Contact
                   me and let&apos;s talk.
@@ -28,43 +28,34 @@ const form = () => {
                 <p className="uppercase pt-8">Connect With Us</p>
                 <div className="flex items-center justify-start gap-3 py-4">
                   <a
-                    href="https://www.linkedin.com/in/clint-briley-50056920a/"
+                    href="https://www.facebook.com/rajourimandoliaF"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-2 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <div className="rounded-full shadow-lg shadow-black p-2 cursor-pointer hover:scale-110 ease-in duration-300">
                       {/* <FaLinkedinIn /> */}
-                      <AiFillFacebook size={35} />
+                      <AiFillFacebook size={35} color='blue' />
                     </div>
                   </a>
                   <a
-                    href="https://github.com/fireclint"
+                    href="https://www.instagram.com/mandoliacoachingcentre/"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-2 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <div className="rounded-full shadow-lg shadow-black p-2 cursor-pointer hover:scale-110 ease-in duration-300">
                       {/* <FaGithub /> */}
-                      <AiFillInstagram size={35} />
+                      <AiFillInstagram size={35} color='#fb3958' />
                     </div>
                   </a>
 
-                  {/* <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                  
-                </div>
-                <Link href='/resume'>
-                  <a>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                      
-                    </div>
-                  </a>
-                </Link> */}
+                 
                 </div>
               </div>
             </div>
           </div>
 
           {/* right */}
-          <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
+          <div className="col-span-3 w-full h-auto shadow-lg shadow-black rounded-xl lg:p-4">
             <div className="p-4">
               <form>
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
@@ -121,7 +112,7 @@ const form = () => {
         <div className="flex justify-center py-12">
           <Link href="/">
             <a>
-              <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+              <div className="rounded-full shadow-lg shadow-black p-4 cursor-pointer hover:scale-110 ease-in duration-300">
                 <HiOutlineChevronDoubleUp
                   className="text-[gold]"
                   size={50}
