@@ -4,7 +4,7 @@ import Image from 'next/image'
 const Gallery = () => {
   return (
     <>
-    <div className='text-center tracking-wider m-8 uppercase'>
+    <div id='gallery' className='text-center tracking-wider m-8 uppercase'>
     <h1>Gallery</h1>
 
     </div>

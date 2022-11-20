@@ -6,7 +6,7 @@ import Services from "../components/Services";
 
 
 
-import Gallery from "../components/gallery/Gallery";
+import Gallery from "../components/Gallery";
 import Form from "../components/Form";
 import Footer from "../components/Footer";
 export default function Home() {

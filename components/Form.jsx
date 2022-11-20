@@ -2,7 +2,7 @@ import React from "react";
 
 const form = () => {
   return (
-  <div className="bg-[grey]">
+  <div id="form" className="bg-[grey]">
     <div className=" bg-gradient-to-b from-yellow-600 to-yellow-300 p-5 min-h-full w-80">
       <div className="flex justify-start items-start  ">
         <h1 className="uppercase text-4xl text-black">contact us</h1>

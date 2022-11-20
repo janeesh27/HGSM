@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 const Services = () => {
   return (
-    <div className="w-full lg:h-screen p-2">   {/* background image not working */}
+    <div id="services" className="w-full lg:h-screen p-2">   {/* background image not working */}
       <div className="max-w-[1240px] mx-auto flex flex-col text-center h-full">
         <h1 className="text-yellow-500 mb-20">We Offer</h1>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">

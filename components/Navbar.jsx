@@ -27,13 +27,13 @@ const Navbar = () => {
 
         <div>
           <ul className="hidden md:flex">
-            <Link href="/aboutus">
+            <Link href="/#about">
               <li className="ml-10 text-2xl hover:border-b">About us</li>
             </Link>
-            <Link href="/gallery">
+            <Link href="/#gallery">
               <li className="ml-10 text-2xl hover:border-b">gallery</li>
             </Link>
-            <Link href="/contactus">
+            <Link href="/#form">
               <li className="ml-10 text-2xl hover:border-b">contact us</li>
             </Link>
           </ul>
@@ -72,16 +72,16 @@ const Navbar = () => {
                 </div>
                 <div className="py-4 flex flex-col">
                   <ul>
-                    <Link href="/">
+                    <Link href="/#main">
                       <li className="py-4 text-sm">home</li>
                     </Link>
-                    <Link href="/aboutus">
+                    <Link href="/#about">
                       <li className="py-4 text-sm">about us</li>
                     </Link>
-                    <Link href="/gallery">
+                    <Link href="/#gallery">
                       <li className="py-4 text-sm">gallery</li>
                     </Link>
-                    <Link href="/contactus">
+                    <Link href="/#form">
                       <li className="py-4 text-sm">contact us</li>
                     </Link>
                   </ul>
