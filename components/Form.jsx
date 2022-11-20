@@ -7,8 +7,8 @@ import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 const form = () => {
   return (
     <div id="form" className="w-full lg:h-screen">
-      <div className="max-w-[1240px] m-auto px-2 py-16 w-full ">
-        <h2 className="py-6">Get In Touch</h2>
+      <div className="max-w-[1240px] m-auto px-2 py-6 w-full ">
+        <h1 className="py-6 text-center">Get In Touch</h1>
         <div className="grid lg:grid-cols-5 gap-8">
           {/* left */}
           <div className="col-span-3 lg:col-span-2 w-full h-full shadow-lg bg-gradient-to-r from-yellow-600 to-yellow-300 shadow-black rounded-xl p-4">
@@ -17,12 +17,21 @@ const form = () => {
                 <h2>MANDOLIA COACHING</h2>
               </div>
               <div>
-                
-                <p className="text-lg py-2 font-semibold">Ward no. 9, near Jamia Masjid, Rajouri, Jammu and Kashmir 185131</p>
-                <p className="py-4">
-                  I am available for freelance or full-time positions. Contact
-                  me and let&apos;s talk.
+                <p className="text-lg py-2 font-semibold">
+                  Ward no. 9, near Jamia Masjid, Rajouri, Jammu and Kashmir
+                  185131
                 </p>
+
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331.83110312244!2d74.3078164!3d33.37547519999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391e2df6478b62a7%3A0xe27abfe4d9ca36d4!2sMANDOLIA%20COACHING%20CENTRE!5e0!3m2!1sen!2sin!4v1668977844728!5m2!1sen!2sin"
+                  width="400px"
+                  height="450px"
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+
+                <p className="py-3 font-bold">
+                  Contact Number: 7006056404 | 9419170852 | 9086135913                </p>
               </div>
               <div>
                 <p className="uppercase pt-8">Connect With Us</p>
@@ -34,7 +43,7 @@ const form = () => {
                   >
                     <div className="rounded-full shadow-lg shadow-black p-2 cursor-pointer hover:scale-110 ease-in duration-300">
                       {/* <FaLinkedinIn /> */}
-                      <AiFillFacebook size={35} color='blue' />
+                      <AiFillFacebook size={35} color="blue" />
                     </div>
                   </a>
                   <a
@@ -44,11 +53,9 @@ const form = () => {
                   >
                     <div className="rounded-full shadow-lg shadow-black p-2 cursor-pointer hover:scale-110 ease-in duration-300">
                       {/* <FaGithub /> */}
-                      <AiFillInstagram size={35} color='#fb3958' />
+                      <AiFillInstagram size={35} color="#fb3958" />
                     </div>
                   </a>
-
-                 
                 </div>
               </div>
             </div>
@@ -60,7 +67,9 @@ const form = () => {
               <form>
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
-                    <label className="uppercase text-sm py-2">Name</label>
+                    <label className="uppercase text-lg font-semibold py-2">
+                      Name
+                    </label>
                     <input
                       className="border-2 rounded-lg p-3 flex border-gray-300"
                       type="text"
@@ -68,7 +77,7 @@ const form = () => {
                     />
                   </div>
                   <div className="flex flex-col">
-                    <label className="uppercase text-sm py-2">
+                    <label className="uppercase text-lg font-semibold py-2">
                       Phone Number
                     </label>
                     <input
@@ -79,7 +88,9 @@ const form = () => {
                   </div>
                 </div>
                 <div className="flex flex-col py-2">
-                  <label className="uppercase text-sm py-2">Email</label>
+                  <label className="uppercase text-lg font-semibold py-2">
+                    Email
+                  </label>
                   <input
                     className="border-2 rounded-lg p-3 flex border-gray-300"
                     type="email"
@@ -87,7 +98,9 @@ const form = () => {
                   />
                 </div>
                 <div className="flex flex-col py-2">
-                  <label className="uppercase text-sm py-2">Subject</label>
+                  <label className="uppercase text-lg font-semibold py-2">
+                    Subject
+                  </label>
                   <input
                     className="border-2 rounded-lg p-3 flex border-gray-300"
                     type="text"
@@ -95,7 +108,9 @@ const form = () => {
                   />
                 </div>
                 <div className="flex flex-col py-2">
-                  <label className="uppercase text-sm py-2">Message</label>
+                  <label className="uppercase text-lg font-semibold py-2">
+                    Message
+                  </label>
                   <textarea
                     className="border-2 rounded-lg p-3 border-gray-300"
                     rows="10"
@@ -113,10 +128,7 @@ const form = () => {
           <Link href="/">
             <a>
               <div className="rounded-full shadow-lg shadow-black p-4 cursor-pointer hover:scale-110 ease-in duration-300">
-                <HiOutlineChevronDoubleUp
-                  className="text-[gold]"
-                  size={50}
-                />
+                <HiOutlineChevronDoubleUp className="text-[gold]" size={50} />
               </div>
             </a>
           </Link>
