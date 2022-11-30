@@ -46,7 +46,12 @@ const Gallery = () => {
             height="500"
             alt="main"
           />
-          <Image src="/../public/gallery/1.jpg" width="500" height="500" alt='main buliding' />
+          <Image
+            src="/../public/gallery/1.jpg"
+            width="500"
+            height="500"
+            alt="main buliding"
+          />
           <Image
             src="/../public/gallery/1.jpg"
             width="500"
