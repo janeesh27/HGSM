@@ -133,13 +133,13 @@ const Services = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/media/cbse.png"
+                  src="/../public/media/faculty.png"
                   alt="/"
                   width="100px"
                   height="100px"
                 />
                 <div className="flex flex-col items-center justify-center">
-                  <h3>Boards Preprations</h3>
+                  <h3>Experienced Faculty</h3>
                 </div>
               </div>
             </div>
