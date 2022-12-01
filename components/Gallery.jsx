@@ -57,6 +57,7 @@ const Gallery = () => {
             width="500"
             height="500"
             alt="main buliding"
+            
           />
         </div>
       </div>
