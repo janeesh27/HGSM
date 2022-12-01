@@ -11,7 +11,7 @@ const form = () => {
         <h1 className="py-6 text-center">Get In Touch</h1>
         <div className="grid lg:grid-cols-5 gap-8">
           {/* left */}
-          <div className="col-span-3 lg:col-span-2 w-full h-full shadow-lg bg-gradient-to-r from-yellow-600 to-yellow-300 shadow-black rounded-xl p-4">
+          <div className="col-span-3 lg:col-span-2 w-11/12 h-full m-auto shadow-lg bg-gradient-to-r from-yellow-600 to-yellow-300 shadow-black rounded-xl p-4">
             <div className="lg:p-4 h-full ">
               <div>
                 <h2>MANDOLIA COACHING</h2>
@@ -24,7 +24,7 @@ const form = () => {
 
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331.83110312244!2d74.3078164!3d33.37547519999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391e2df6478b62a7%3A0xe27abfe4d9ca36d4!2sMANDOLIA%20COACHING%20CENTRE!5e0!3m2!1sen!2sin!4v1668977844728!5m2!1sen!2sin"
-                  width="400px"
+                  width="100%"
                   height="450px"
                   loading="lazy"
                   referrerpolicy="no-referrer-when-downgrade"
