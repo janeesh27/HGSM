@@ -55,7 +55,7 @@ const Navbar = () => {
               <div>
                 <div className="flex w-full items-center justify-between">
                   <Image
-                    src="/../public/media/Logo2.png"
+                    src="/media/Logo2.png"
                     alt="reload"
                     width="100"
                     height="70"

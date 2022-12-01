@@ -12,7 +12,7 @@ const Services = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image 
-                  src="/../public/media/cbse.png"
+                  src="/media/cbse.png"
                   alt="/"
                   width="100px"
                   height="100px"
@@ -29,7 +29,7 @@ const Services = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/media/jeemains.png"
+                  src="/media/jeemains.png"
                   alt="/"
                   width="100px"
                   height="100px"
@@ -47,7 +47,7 @@ const Services = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/media/neet.jpg"
+                  src="/media/neet.jpg"
                   alt="/"
                   width="100px"
                   height="100px"
@@ -64,7 +64,7 @@ const Services = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/media/overall.jpg"
+                  src="/media/overall.jpg"
                   alt="/"
                   width="100px"
                   height="100px"
@@ -82,7 +82,7 @@ const Services = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/media/testseries.jpg"
+                  src="/media/testseries.jpg"
                   alt="/"
                   width="100px"
                   height="100px"
@@ -99,7 +99,7 @@ const Services = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/media/notes.jpg"
+                  src="/media/notes.jpg"
                   alt="/"
                   width="100px"
                   height="100px"
@@ -116,7 +116,7 @@ const Services = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/media/attention.png"
+                  src="/media/attention.png"
                   alt="/"
                   width="100px"
                   height="100px"
@@ -133,7 +133,7 @@ const Services = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/media/faculty.png"
+                  src="/media/faculty.png"
                   alt="/"
                   width="100px"
                   height="100px"
