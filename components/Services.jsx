@@ -18,7 +18,7 @@ const Services = () => {
                   height="100px"
                 />
                 <div className="flex flex-col items-center justify-center">
-                  <h3>Boards Preprations</h3>
+                  <h3>Boards Preparations</h3>
                 </div>
               </div>
             </div>
