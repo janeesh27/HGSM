@@ -31,7 +31,7 @@ const form = () => {
                 ></iframe>
 
                 <p className="py-3 font-bold">
-                  Contact Number: 7006056404 | 9419170852 | 9086135913                </p>
+                  Contact Number: 7006056404 | 9419170852 | 7051961028                </p>
               </div>
               <div>
                 <p className="uppercase pt-8">Connect With Us</p>
